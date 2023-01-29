@@ -13,7 +13,12 @@ export default function App() {
 
 	function MyDrawer() {
 		return (
-			<Drawer.Navigator>
+			<Drawer.Navigator
+				screenOptions={{
+					headerStyle: { backgroundColor: "#ff008c" },
+					sceneContainerStyle: { backgroundColor: "#111111" },
+				}}
+			>
 				<Drawer.Screen
 					name="Categories"
 					component={CategoriesScreen}
