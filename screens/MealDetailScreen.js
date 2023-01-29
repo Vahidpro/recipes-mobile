@@ -6,7 +6,6 @@ import List from "../components/MealDetail/List";
 import { useLayoutEffect } from "react";
 import IconButton from "../components/IconButton";
 
-
 function MealDetailScreen({ route, navigation }) {
 	const mealId = route.params.mealId;
 
