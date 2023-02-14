@@ -27,7 +27,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF",
         "versionCode": 1
-      }
+      },
+      "package": "com.vahidpr.recipes"
     },
     "web": {
       "favicon": "./assets/favicon.png"
